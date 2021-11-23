@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 # Opening a connection to the database
-cnx = mysql.connector.connect(user="root", password="docker", database="brazil")
+cnx = mysql.connector.connect(user="root", password="M0m0c0f0", database="brazil")
 
 # Selecting the cities where the state code is SP as a DataFrame
 with cnx.cursor() as cursor:

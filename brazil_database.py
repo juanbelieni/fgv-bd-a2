@@ -2,7 +2,7 @@
 import mysql.connector
 
 # Opening a connection to the database
-cnx = mysql.connector.connect(user="root", password="docker", autocommit=True)
+cnx = mysql.connector.connect(user="root", password="M0m0c0f0", autocommit=True)
 
 # Opening brazil.sql file and executing the commands
 cursor = cnx.cursor()

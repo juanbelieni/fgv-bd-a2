@@ -48,7 +48,7 @@ brazil["state_code"] = brazil["id"].apply(lambda id: states[id[:2]])
 print(brazil.head())
 
 # Opening a connection to the database
-cnx = mysql.connector.connect(user="root", password="docker", database="brazil")
+cnx = mysql.connector.connect(user="root", password="M0m0c0f0", database="brazil")
 
 # SQL query to insert the dataframe into the database
 sql = """
